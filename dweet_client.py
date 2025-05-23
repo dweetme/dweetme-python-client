@@ -35,8 +35,3 @@ class DweetClient:
             return response.json()
         except requests.exceptions.JSONDecodeError:
             return {"error": "Invalid JSON response", "status_code": response.status_code, "text": response.text}
-
-#functions missing
-#   def get_last_num_dweets
-#   def get_all_dweets
-
