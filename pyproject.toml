@@ -3,9 +3,9 @@ requires = ["setuptools>=65.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-dynamic = ["version"]
+#dynamic = ["version"]
 name = "dweetme_client"
-#version = "0.0.2"
+version = "0.0.3"
 description = "Python client for Dweet.me API"
 authors = [
     {name = "Dweet.me", email = "dweet.me.server@gmail.com"}
@@ -25,8 +25,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://dweet.me"
-Repository = "https://github.com/dweetme/python-client"
-Issues = "https://github.com/dweetme/python-client/issues"
+Repository = "https://github.com/dweetme/dweetme-python-client"
+Issues = "https://github.com/dweetme/dweetme-python-client/issues"
 
 [tool.setuptools]
 packages = ["dweetme_client"]
