@@ -1,5 +1,5 @@
 # Dweetme-python-client
-This is a python client library for dweetme
+This is a Python and Micropython client library for dweetme
 
 ## Installation 
 ``` zsh
